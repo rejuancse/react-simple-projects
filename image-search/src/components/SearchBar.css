@@ -1,0 +1,21 @@
+.search-bar {
+    border: 1px solid #b7b7b7;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto 30px;
+}
+
+.search-bar h3 {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.search-bar input {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 12px;
+    outline: none;
+    border: 1px solid #b5b5b5;
+}
