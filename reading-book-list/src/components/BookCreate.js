@@ -1,5 +1,4 @@
 import { useState } from "react";
-import BookShow from "./BookShow";
 
 function BookCreate({ onCreate }) {
 
@@ -17,8 +16,6 @@ function BookCreate({ onCreate }) {
 
     return (
         <div>
-            <BookShow showValue={handleChange} />
-
             <div className="book-create">
                 <h3>Add a Book</h3>
                 <form onSubmit={handleSubmit}>
